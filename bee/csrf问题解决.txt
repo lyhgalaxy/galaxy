@@ -1,0 +1,7 @@
+"""
+csrf解决方法
+django工程views.py添加屏蔽装饰器
+from django.views.decorators.csrf import csrf_exempt
+@csrf_exempt
+def some_view(request):
+"""
